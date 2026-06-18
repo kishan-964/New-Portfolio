@@ -7,19 +7,19 @@ export default function Education() {
   const cardsRef = useScrollAnimationStagger(0.1);
   const education = [
     {
-      degree: 'Bachelor of Technology',
+      degree: 'Bachelor of computer science and information technology',
       field: 'Computer Science',
-      institution: 'Indian Institute of Technology',
-      location: 'Delhi, India',
-      year: '2018 - 2022',
+      institution: 'Tribhuvan University',
+      location: 'Nepal,Biratnagar',
+      year: '2024 - 2027',
       highlights: ['GPA: 3.8/4.0', 'Merit Scholar', 'First Division'],
     },
     {
       degree: 'Advanced Diploma',
-      field: 'Web Development',
-      institution: 'Jeetain Mandal Academy',
-      location: 'Online',
-      year: '2023 - 2024',
+      field: 'Mern-Stack Development',
+      institution: 'Clove IT',
+      location: 'Biratnagar,Nepal',
+      year: '2026 - 2027',
       highlights: ['Full Stack Specialization', 'Distinction', 'Project-Based Learning'],
     },
   ];

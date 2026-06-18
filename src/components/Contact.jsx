@@ -30,19 +30,19 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@apex.dev',
-      href: 'mailto:hello@apex.dev',
+      value: 'kt038153@gmail.com',
+      href: 'mailto:kt038153@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+91 (123) 456-7890',
-      href: 'tel:+911234567890',
+      value: '+977 9807631559',
+      href: 'tel:+9779807631559',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Delhi, India',
+      value: 'Nepal, janakpur',
       href: '#',
     },
   ];
@@ -160,7 +160,7 @@ export default function Contact() {
                 <Share2 className="w-4 sm:w-5 h-4 sm:h-5 text-foreground group-hover:text-primary transition-smooth shrink-0" />
                 <div className="min-w-0">
                   <p className="font-medium text-xs sm:text-sm text-foreground truncate">LinkedIn</p>
-                  <p className="text-xs text-muted-foreground truncate">/in/apexdev</p>
+                  <p className="text-xs text-muted-foreground truncate">https://www.linkedin.com/in/kishanthakur01/</p>
                 </div>
               </a>
 
@@ -172,19 +172,7 @@ export default function Contact() {
                 <Link2 className="w-4 sm:w-5 h-4 sm:h-5 text-foreground group-hover:text-primary transition-smooth shrink-0" />
                 <div className="min-w-0">
                   <p className="font-medium text-xs sm:text-sm text-foreground truncate">GitHub</p>
-                  <p className="text-xs text-muted-foreground truncate">@apexdev</p>
-                </div>
-              </a>
-
-              <a
-                href="#"
-                className="flex items-center gap-3 p-3 sm:p-4 bg-card rounded-lg border border-border hover:border-primary/50 hover:shadow-md transition-smooth group transform hover:scale-105 hover-lift animate-fadeInUp"
-                style={{ animationDelay: '0.2s' }}
-              >
-                <Share2 className="w-4 sm:w-5 h-4 sm:h-5 text-foreground group-hover:text-primary transition-smooth shrink-0" />
-                <div className="min-w-0">
-                  <p className="font-medium text-xs sm:text-sm text-foreground truncate">LinkedIn</p>
-                  <p className="text-xs text-muted-foreground truncate">/in/apexdev</p>
+                  <p className="text-xs text-muted-foreground truncate">https://github.com/kishan-964</p>
                 </div>
               </a>
 
@@ -196,7 +184,7 @@ export default function Contact() {
                 <Share2 className="w-4 sm:w-5 h-4 sm:h-5 text-foreground group-hover:text-primary transition-smooth shrink-0" />
                 <div className="min-w-0">
                   <p className="font-medium text-xs sm:text-sm text-foreground truncate">Social</p>
-                  <p className="text-xs text-muted-foreground truncate">@apexdev</p>
+                  <p className="text-xs text-muted-foreground truncate">https://www.facebook.com/ki.han.thakur</p>
                 </div>
               </a>
             </div>

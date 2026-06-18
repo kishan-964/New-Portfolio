@@ -20,8 +20,8 @@ export default function Skills() {
       skills: [
         { name: 'Node.js', level: 90 },
         { name: 'Express.js', level: 88 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 87 },
+        { name: 'Python', level: 25 },
+        { name: 'PostgreSQL', level: 50 },
       ],
     },
     {
@@ -29,15 +29,14 @@ export default function Skills() {
       skills: [
         { name: 'Git & GitHub', level: 92 },
         { name: 'Docker', level: 85 },
-        { name: 'AWS', level: 80 },
-        { name: 'REST APIs', level: 90 },
+        { name: 'REST APIs', level: 60 },
       ],
     },
     {
       title: 'Soft Skills',
       skills: [
-        { name: 'Problem Solving', level: 95 },
-        { name: 'Team Leadership', level: 88 },
+        { name: 'Problem Solving', level: 75 },
+        { name: 'Team Leadership', level: 95 },
         { name: 'Communication', level: 90 },
         { name: 'Project Management', level: 85 },
       ],
@@ -98,10 +97,8 @@ export default function Skills() {
               'MongoDB',
               'PostgreSQL',
               'Docker',
-              'AWS',
               'Git',
               'REST APIs',
-              'GraphQL',
               'Tailwind CSS',
               'Express.js',
             ].map((tech, index) => (

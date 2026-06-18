@@ -61,6 +61,15 @@ export default function Projects() {
       github: '#',
       featured: false,
     },
+    {
+      title: 'Trip Planning App',
+      description: 'Comprehensive trip planning application with itinerary creation, location discovery, and travel tips.',
+      tags: ['React Native', 'Google Maps API', 'Redux', 'Expo'],
+      image: '✈️',
+      link: 'https://chaltitrip.netlify.app/',
+      github: '#',
+      featured: false,
+    },
   ];
 
   const featured = projects.filter(p => p.featured);
