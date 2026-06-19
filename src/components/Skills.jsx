@@ -85,10 +85,13 @@ export default function Skills() {
         </div>
 
         {/* Tech Stack */}
+        
         <div className="mt-12 sm:mt-16 p-5 sm:p-8 bg-linear-to-br from-primary/5 to-secondary/5 rounded-2xl border border-secondary/30 scroll-animate-in">
           <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4 sm:mb-6">Tech Stack</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-4" ref={techRef}>
+            
             {[
+             
               'JavaScript',
               'React',
               'Node.js',
@@ -97,6 +100,7 @@ export default function Skills() {
               'Git',
              'HTML & CSS',
               'Tailwind CSS',
+              
             ].map((tech, index) => (
               <div
                 key={index}
@@ -111,6 +115,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

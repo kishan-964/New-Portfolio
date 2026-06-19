@@ -13,6 +13,27 @@ export default function Hero() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center py-responsive">
+         
+                   <div className="relative md:hidden" data-scroll>
+            <div className="absolute inset-0 bg-linear-to-tr from-primary/20 to-secondary/20 rounded-3xl blur-3xl animate-bounceGentle"></div>
+            <div className="relative bg-linear-to-br from-primary/10 to-secondary/10 rounded-3xl p-6 sm:p-8 border border-secondary/30 backdrop-blur-sm hover-lift">
+              <div className="space-y-4 sm:space-y-6">
+                <div className="h-56 sm:h-64 bg-linear-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-5xl sm:text-6xl font-bold text-white/50 hover-scale">
+                  <img
+                    src="/kishan.jpeg"
+                    alt="Kishan Kumar Thakur"
+                    className="w-full h-full object-cover rounded-2xl"
+                    style={{ objectPosition: "center 20%" }}
+                  />
+                </div>
+                <div className="space-y-2 sm:space-y-3 animate-stagger">
+                  <div className="h-2 sm:h-3 bg-secondary/20 rounded-full w-3/4"></div>
+                  <div className="h-2 sm:h-3 bg-secondary/20 rounded-full w-full"></div>
+                  <div className="h-2 sm:h-3 bg-secondary/20 rounded-full w-2/3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6" data-scroll>
