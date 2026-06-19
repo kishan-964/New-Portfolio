@@ -34,7 +34,7 @@ export default function About() {
             data-scroll-item
             className="col-span-2 bg-card p-6 sm:p-8 rounded-2xl border border-border transition-smooth"
           >
-            <h3 className="text-xl sm:text-2xl font-semibold mb-3">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-3 text-orange-300">
               What I do
             </h3>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
@@ -49,10 +49,10 @@ export default function About() {
             data-scroll-item
             className="bg-card p-6 sm:p-8 rounded-2xl border border-border"
           >
-            <h4 className="text-base font-semibold mb-2">Quick facts</h4>
+            <h4 className="text-base font-semibold mb-2 text-orange-300">Quick facts</h4>
             <ul className="text-sm text-muted-foreground space-y-2">
               <li>Location: Remote / Hybrid</li>
-              <li>Experience: 8+ years</li>
+              <li>Experience: 1+ years</li>
               <li>Focus: Frontend + APIs + Backend + UI/UX</li>
             </ul>
           </aside>

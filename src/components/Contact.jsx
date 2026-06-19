@@ -96,7 +96,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-border rounded-lg text-foreground placeholder-muted-foreground focus-ring transition-smooth text-sm sm:text-base"
-                  placeholder="John Doe"
+                  placeholder="Full Name"
                   required
                 />
               </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-muted border border-border rounded-lg text-foreground placeholder-muted-foreground focus-ring transition-smooth text-sm sm:text-base"
-                  placeholder="john@example.com"
+                  placeholder="your.email@example.com"
                   required
                 />
               </div>

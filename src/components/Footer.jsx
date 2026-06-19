@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, ArrowUp, Link2, Share2, Mail } from 'lucide-react';
+import { Heart, ArrowUp, Link2, Share2, Mail, HeartIcon } from 'lucide-react';
 import { useScrollAnimation, useScrollAnimationStagger } from '../hooks/useScrollAnimation';
 
 export default function Footer() {
@@ -86,8 +86,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
             <p className="text-xs sm:text-sm text-muted-foreground flex items-center gap-1 text-center sm:text-left animate-fadeInUp">
               © {currentYear} Kishan Kumar Thakur. Made with
-              <Heart className="w-3.5 sm:w-4 h-3.5 sm:h-4 text-primary fill-primary animate-bounceGentle" />
-              by{' '}
+             <HeartIcon className="w-4 h-4 text-red-500 animate-pulse" />
               <span className="font-semibold text-foreground">Trained by Clove IT</span>
             </p>
 
@@ -115,7 +114,7 @@ export default function Footer() {
               Terms of Service
             </a>
           </div>
-          <p className="text-center sm:text-right">Powered by React, Next.js & Tailwind CSS</p>
+         
         </div>
       </div>
     </footer>

@@ -12,48 +12,9 @@ export default function Certifications() {
       date: 'June 2026',
       credential: 'JM-2026-001',
       verified: true,
-      skills: ['Full Stack', 'React', 'Node.js'],
+      skills: ['MongoDB','Express.js', 'React', 'Node.js'],
     },
-    {
-      title: 'AWS Solutions Architect Associate',
-      issuer: 'Amazon Web Services',
-      date: 'March 2026',
-      credential: 'AWS-SAA-2026',
-      verified: true,
-      skills: ['AWS', 'Cloud Architecture', 'DevOps'],
-    },
-    {
-      title: 'Advanced React Development',
-      issuer: 'React Bootcamp',
-      date: 'December 2027',
-      credential: 'RB-2027-456',
-      verified: true,
-      skills: ['React', 'Next.js', 'Performance'],
-    },
-    {
-      title: 'PostgreSQL Database Administration',
-      issuer: 'Database Institute',
-      date: 'September 2027',
-      credential: 'DB-2027-789',
-      verified: true,
-      skills: ['PostgreSQL', 'Database Design', 'Optimization'],
-    },
-    {
-      title: 'Web Development Professional',
-      issuer: 'Tech Academy Online',
-      date: 'June 2026',
-      credential: 'TAO-2026-012',
-      verified: true,
-      skills: ['Web Dev', 'Frontend', 'Backend'],
-    },
-    {
-      title: 'JavaScript Mastery',
-      issuer: 'Code Academy',
-      date: 'March 2026',
-      credential: 'CA-2026-345',
-      verified: true,
-      skills: ['JavaScript', 'ES6+', 'Async Programming'],
-    },
+    
   ];
 
   return (

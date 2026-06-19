@@ -6,34 +6,16 @@ export default function Experience() {
   const sectionRef = useScrollAnimation(0.15);
   const cardsRef = useScrollAnimationStagger(0.1);
   const experiences = [
+   
     {
-      title: 'Senior Full Stack Developer',
-      company: 'APEX',
-      period: '2027 - Present',
-      description: 'Leading development of cutting-edge web applications. Architecting scalable solutions and mentoring junior developers.',
-      highlights: ['React & Next.js', 'Node.js', 'AWS', 'Team Leadership'],
-    },
-    {
-      title: 'Full Stack Developer',
-      company: 'Tech Innovations Ltd',
+      title: 'Mern-Stack Developer',
+      company: 'Clove IT',
       period: '2026 - 2027',
       description: 'Developed responsive web applications for multiple clients. Implemented features using modern web technologies.',
-      highlights: ['React', 'MongoDB', 'Express.js', 'REST APIs'],
+      highlights: ['React', 'MongoDB', 'Express.js', 'REST APIs','MongoDB'],
     },
-    {
-      title: 'Frontend Developer',
-      company: 'Digital Solutions Inc',
-      period: '2026 - 2027',
-      description: 'Created user-friendly interfaces and optimized performance. Collaborated with design team to implement UI/UX.',
-      highlights: ['React', 'Tailwind CSS', 'JavaScript', 'UI/UX'],
-    },
-    {
-      title: 'Junior Developer',
-      company: 'StartUp Hub',
-      period: '2025 - 2026',
-      description: 'Built features for web applications. Learned best practices in coding and collaboration with senior developers.',
-      highlights: ['HTML/CSS', 'JavaScript', 'Git', 'Agile'],
-    },
+   
+    
   ];
 
   return (

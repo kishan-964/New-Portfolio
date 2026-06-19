@@ -20,7 +20,7 @@ export default function Hero() {
                 className="inline-block px-3 sm:px-4 py-2 bg-secondary/20 rounded-full border border-secondary/30"
                 data-scroll
               >
-                <span className="text-xs sm:text-sm font-medium text-primary">
+                <span className="text-xs sm:text-sm font-medium text-primary flext justify-center items-center gap-1">
                   Welcome to my portfolio
                 </span>
               </div>
@@ -29,7 +29,7 @@ export default function Hero() {
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fadeInUp"
                 style={{ animationDelay: "0.2s" }}
               >
-                Full Stack
+                Mern-Stack
                 <span className="bg-linear-to-r from-primary via-secondary to-primary bg-clip-text text-transparent">
                   {" "}
                   Developer
@@ -54,7 +54,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-3 sm:gap-4 py-6 sm:py-8 border-y border-border">
               <div className="space-y-1 sm:space-y-2" data-scroll>
                 <p className="text-2xl sm:text-3xl font-bold text-primary">
-                  8+
+                  1+
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   Years Experience
@@ -62,7 +62,7 @@ export default function Hero() {
               </div>
               <div className="space-y-1 sm:space-y-2" data-scroll>
                 <p className="text-2xl sm:text-3xl font-bold text-primary">
-                  25+
+                  10+
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   Projects Completed
@@ -70,7 +70,7 @@ export default function Hero() {
               </div>
               <div className="space-y-1 sm:space-y-2" data-scroll>
                 <p className="text-2xl sm:text-3xl font-bold text-primary">
-                  50+
+                  0+
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   Happy Clients

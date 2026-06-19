@@ -10,8 +10,8 @@ export default function Skills() {
       title: 'Frontend Development',
       skills: [
         { name: 'React', level: 95 },
-        { name: 'Next.js', level: 90 },
-        { name: 'TypeScript', level: 88 },
+        { name: 'JavaScript', level: 50 },
+        { name: 'HTML & CSS', level: 85 },    
         { name: 'Tailwind CSS', level: 92 },
       ],
     },
@@ -21,15 +21,13 @@ export default function Skills() {
         { name: 'Node.js', level: 90 },
         { name: 'Express.js', level: 88 },
         { name: 'Python', level: 25 },
-        { name: 'PostgreSQL', level: 50 },
+        { name: 'MongoDB', level: 50 },
       ],
     },
     {
       title: 'Tools & Technologies',
       skills: [
         { name: 'Git & GitHub', level: 92 },
-        { name: 'Docker', level: 85 },
-        { name: 'REST APIs', level: 60 },
       ],
     },
     {
@@ -95,12 +93,10 @@ export default function Skills() {
               'React',
               'Node.js',
               'MongoDB',
-              'PostgreSQL',
-              'Docker',
-              'Git',
-              'REST APIs',
-              'Tailwind CSS',
               'Express.js',
+              'Git',
+             'HTML & CSS',
+              'Tailwind CSS',
             ].map((tech, index) => (
               <div
                 key={index}

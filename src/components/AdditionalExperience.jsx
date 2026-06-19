@@ -10,7 +10,7 @@ export default function AdditionalExperience() {
       icon: Users,
       title: 'Freelance Consultant',
       description: 'Provided web development and consulting services to 20+ startups and small businesses worldwide.',
-      metrics: '20+ Projects',
+      metrics: '5+ Projects',
       color: 'from-blue-500 to-cyan-500',
     },
     {
@@ -24,7 +24,7 @@ export default function AdditionalExperience() {
       icon: Star,
       title: 'Technical Mentor',
       description: 'Mentored 15+ junior developers helping them grow their skills and transition into professional roles.',
-      metrics: '15+ Mentees',
+      metrics: '10+ Mentees',
       color: 'from-orange-500 to-red-500',
     },
   ];
