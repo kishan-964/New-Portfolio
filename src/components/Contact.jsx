@@ -11,19 +11,46 @@ export default function Contact() {
     email: '',
     message: '',
   });
+  const [result, setResult] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', message: '' });
+    setIsSubmitting(true);
+    setResult('');
+
+    try {
+      const form = e.target;
+      const formDataToSend = new FormData(form);
+      formDataToSend.append('access_key', '3fbb113f-0bc2-4dc0-ad9b-378c6b07c56f');
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataToSend,
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setResult('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+        form.reset();
+      } else {
+        setResult(data.message || 'There was an error sending your message.');
+      }
+    } catch (error) {
+      setResult('Unable to send the message. Please try again later.');
+      console.error('Contact form submit error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -135,12 +162,16 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full px-4 sm:px-6 py-2.5 sm:py-3 bg-linear-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg hover:shadow-primary/30 transition-smooth transform hover:scale-105 font-medium flex items-center justify-center gap-2 group text-sm sm:text-base hover-lift animate-fadeInUp"
+                disabled={isSubmitting}
+                className="w-full px-4 sm:px-6 py-2.5 sm:py-3 bg-linear-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg hover:shadow-primary/30 transition-smooth transform hover:scale-105 font-medium flex items-center justify-center gap-2 group text-sm sm:text-base hover-lift animate-fadeInUp disabled:opacity-50 disabled:cursor-not-allowed"
                 style={{ animationDelay: '0.4s' }}
               >
-                Send Message
+                {isSubmitting ? 'Sending...' : 'Send Message'}
                 <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
+              {result && (
+                <p className="mt-4 text-sm text-foreground">{result}</p>
+              )}
             </form>
           </div>
 
